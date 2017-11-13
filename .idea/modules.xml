@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/F1vote-NewsClient.iml" filepath="$PROJECT_DIR$/F1vote-NewsClient.iml" />
+      <module fileurl="file://$PROJECT_DIR$/NewsClient/NewsClient.iml" filepath="$PROJECT_DIR$/NewsClient/NewsClient.iml" />
+      <module fileurl="file://$PROJECT_DIR$/NewsSplider/NewsSplider.iml" filepath="$PROJECT_DIR$/NewsSplider/NewsSplider.iml" />
+    </modules>
+  </component>
+</project>
