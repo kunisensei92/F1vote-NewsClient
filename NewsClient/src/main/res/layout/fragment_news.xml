@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<android.support.v4.widget.SwipeRefreshLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/srl_news"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+    <android.support.v4.widget.NestedScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+
+        <TextView
+            android:id="@+id/tv_5news_title"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="5 НОВОСТЕЙ ДНЯ"
+            android:paddingLeft="15dp"
+            android:paddingRight="15dp"
+            android:layout_marginTop="8dp"
+            android:layout_marginBottom="15dp"
+            android:textColor="#747474"
+            android:letterSpacing="0.05"
+            android:textSize="13sp" />
+
+        <android.support.v7.widget.RecyclerView
+                android:id="@+id/five_news"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+        <ImageView
+            android:id="@+id/divider_green1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:contentDescription="divider"
+            android:background="@drawable/divider_green"
+            android:layout_marginTop="10dp"/>
+
+
+
+        <TextView
+            android:id="@+id/tv_f1vote_title"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="ЭКСКЛЮЗИВ"
+            android:paddingLeft="15dp"
+            android:paddingRight="15dp"
+            android:layout_marginTop="8dp"
+            android:layout_marginBottom="20dp"
+            android:textColor="#747474"
+            android:letterSpacing="0.05"
+            android:textSize="13sp" />
+
+        <android.support.v7.widget.RecyclerView
+            android:background="#fff"
+            android:id="@+id/lv_news"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+
+
+        <ImageView
+            android:id="@+id/divider_green2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:contentDescription="divider"
+            android:background="@drawable/divider_green"
+            android:layout_marginTop="10dp"/>
+
+
+
+        <TextView
+            android:id="@+id/tv_last_title"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="ЕЩЁ НОВОСТИ"
+            android:paddingLeft="15dp"
+            android:paddingRight="15dp"
+            android:layout_marginTop="8dp"
+            android:layout_marginBottom="20dp"
+            android:textColor="#747474"
+            android:letterSpacing="0.05"
+            android:textSize="13sp" />
+
+        <android.support.v7.widget.RecyclerView
+            android:background="#fff"
+            android:id="@+id/last_news"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+
+    </LinearLayout>
+
+
+    </android.support.v4.widget.NestedScrollView>
+
+</android.support.v4.widget.SwipeRefreshLayout>

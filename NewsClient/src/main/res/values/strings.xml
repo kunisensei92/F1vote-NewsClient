@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- Fonts -->
+
+    <declare-styleable name="TextViewPlus">
+        <attr name="customFont" format="string"/>
+    </declare-styleable>
+
+    <string name="app_name">F1vote</string>
+    <string name="information">F1vote</string>
+    <string name="loading">Загрузка..</string>
+    <string name="dots">…</string>
+    <string name="title_font">exo2.ttf</string>
+    <string name="text_font">PT_Sans-Web-Regular.ttf</string>
+    <string name="description">Описание</string>
+    <string name="title">Заголовок новости или очень длинный заголовок новости</string>
+    <string name="date">0 | 5 дней назад</string>
+
+    <string name="navigation_drawer_open">Открыть навигацию</string>
+    <string name="navigation_drawer_close">Закрыть навигацию</string>
+
+    <string name="action_settings">Настройки</string>
+    <string name="share_title">Поделиться</string>
+    <string name="back_title">Назад</string>
+    <string name="poll_text">Опрос</string>
+    <string name="vote_button">Голосовать!</string>
+    <string name="slogon">Твоя интернет трибуна</string>
+    <string name="about_us">О нас</string>
+    <string name="contacts">Контакты</string>
+    <string name="twitter">Twitter</string>
+    <string name="vk">Vkontakte</string>
+    <string name="facebook">Facebook</string>
+    <string name="en">Eng</string>
+    <string name="f1vote_social">Мы соц. сетях</string>
+    <string name="about_h1">О нас</string>
+    <string name="about_text">Нам очень не хватало места, где мы могли бы высказать свое мнение, поддержать пилотов и команду, за которую болеем, а также весело провести время. И именно поэтому мы создали F1vote.\n\nF1vote — это уникальный ресурс о Формуле 1, сделанный болельщиками для болельщиков. Мы выбираем для тебя только самое важное и интересное, говорим о том, что происходит в мире Формулы 1 простым и понятным языком. Это твоя интернет-трибуна, где с помощью голосований ты можешь высказать свое мнение так, что оно будет услышано всеми. F1vote — это независимая площадка, где болельщики сами формируют мнение по наиболее важным событиям в Формуле 1. Мы пишем о том, что по-настоящему важно для тех, кто не может без Ф1.</string>
+    <string name="login">Войти</string>
+    <string name="stickers">Стикеры</string>
+    <string name="partners">Партнёрский материал</string>
+</resources>
